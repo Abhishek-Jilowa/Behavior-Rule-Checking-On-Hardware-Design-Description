@@ -1,0 +1,12 @@
+Match found in line:   signal Tj1 : std_logic;
+Match found in line:   Trojan_Activated_o <= Tj1;
+Match found in line: 		 (Tj1 = '0' )) then
+Match found in line:   Trojan_Trigger1 : process (s_command)
+Match found in line:   end process Trojan_Trigger1;
+Match found in line:   Trojan_Trigger2 : process (s_command)
+Match found in line:   end process Trojan_Trigger2;
+Match found in line:   Trojan_Trigger3 : process (s_command)
+Match found in line:   end process Trojan_Trigger3;
+Match found in line:   Trojan_Trigger4 : process (s_command)
+Match found in line: 			Tj1 <= '1';
+Match found in line:   end process Trojan_Trigger4
